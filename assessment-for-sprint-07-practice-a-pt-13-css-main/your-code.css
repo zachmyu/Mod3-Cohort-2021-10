@@ -1,1 +1,82 @@
-/* Your code here */
+/* Problem 1 */
+/* =============================== */
+
+body {
+	background-color: #efefef;
+}
+
+fieldset {
+	background-color: white;
+}
+
+/* Problem 2 */
+/* =============================== */
+.blue-box {
+	width: 40px;
+	height: 40px;
+	background-color: blue;
+	box-sizing: border-box;
+}
+
+.orange-box {
+	width: 40px;
+	height: 40px;
+	background-color: orange;
+	box-sizing: border-box;
+}
+
+/* Solution 1 NOT SUGGESTED*/
+/* .blue-box {
+	position: absolute;
+	bottom: 340px;
+}
+
+.orange-box {
+	position: absolute;
+	bottom: 380px;
+} */
+
+/* Solution 2 */
+/* .outer-layer-2 {
+	display: flex;
+	flex-direction: column-reverse;
+} */
+
+/* Solution 3*/
+.outer-layer-2 {
+	position: relative;
+}
+
+.blue-box {
+	position: absolute;
+}
+
+.orange-box {
+	position: absolute;
+	top: -40px;
+}
+
+/* Problem 3 */
+/* =============================== */
+.outer-layer-3 > p + p {
+	color: orange;
+}
+
+/* Problem 4 */
+/* =============================== */
+.outer-layer-4 {
+	box-shadow: 0 0 4px rgba(0, 0, 255, 0.6);
+}
+
+/* Problem 5 */
+/* =============================== */
+.outer-layer-5 {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+/* Problem 6 */
+/* =============================== */
+.uppercase.bold {
+	font-family: "Courier New", Courier, monospace;
+}
